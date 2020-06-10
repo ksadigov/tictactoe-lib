@@ -1,3 +1,5 @@
+package com.sadigov.tictactoe;
+
 public class TicTacToe {
 
     PlayerMark[][] board;
@@ -23,7 +25,7 @@ public class TicTacToe {
 
         TicTacToe game = new TicTacToe(board, 3);
         game.printBoard();
-        System.out.println("Result: " + game.checkRightDiagonal());
+        System.out.println("com.sadigov.tictactoe.Result: " + game.checkRightDiagonal());
 
     }
 
